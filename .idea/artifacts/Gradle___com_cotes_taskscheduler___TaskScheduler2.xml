@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : com.cotes.taskscheduler : TaskScheduler2">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="TaskScheduler-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Gradle : com.cotes.taskscheduler : TaskScheduler" />
+    </root>
+  </artifact>
+</component>

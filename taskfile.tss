@@ -1,0 +1,15 @@
+// This is the task list for the Scheduler program.
+// The task name is in the format ## <TaskName> with the description on the following line preceeded by >> .
+
+## Dishes
+Unload the dishwasher and load the dishes left in the kitchen and around the house.
+No dishes left on counter or tables.
+Clean all counters in the kitchen, including the stove top.
+
+## Garbage
+Empty the garbage if it is over 1/2 full, check again in the morning if not.
+Always replace the garbage bag after taking the trash out.
+Empty the recycling if there is anything in it.
+
+## Sweep Floor
+Sweep the floors. All of them.
