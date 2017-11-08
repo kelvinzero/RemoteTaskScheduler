@@ -46,14 +46,13 @@ public class HTMLBuilder {
         String[] timeArray = getTimeArray();
         final StringBuilder sb = new StringBuilder();
 
-        sb.append("<table><tr>");
-        sb.append("<th> Time </th>");
+        sb.append("<table><thead><tr>");
+        sb.append("<td class=\"time_width\"> Time </td>");
 
         for(Assignee as : assigneeList)
-            sb.append("<th> ").append(as.getName()).append(" </th>");
+            sb.append("<td class=\"headerRow\"> ").append(as.getName()).append(" </td>");
 
-        sb.append("</tr>");
-
+        sb.append("</tr></thead><tbody>");
         for(int i = 0; i < 48; i++) {
             sb.append("<tr>");
             sb.append("<td>").append(timeArray[i]).append("</td>");
@@ -78,7 +77,7 @@ public class HTMLBuilder {
             }
             sb.append("</tr>");
         }
-        sb.append("</table>");
+        sb.append("</tbody></table>");
         return sb.toString();
     }
 

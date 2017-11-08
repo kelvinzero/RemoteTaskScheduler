@@ -8,7 +8,7 @@
   Time: 4:24 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8"%>
 <jsp:useBean id="timebox" class="scheduler.utilities.TimeBox" scope="application"/>
 <jsp:setProperty name="timebox" property="*"/>
 
@@ -17,11 +17,26 @@
       <link rel="stylesheet" href="schedulerstyles.css">
     <title>Josh's Scheduler</title>
 
+<script>
+    function scrollFunc() {
+
+        var date = new Date();
+        var line = date.getHours();
+
+        var w = $(window);
+        var row = $('tbody').find('tr').eq();
+
+        if (row.length){
+            $('html,body').animate({scrollTop: row.offset().top - (w.height()/2)}, 1000 );
+        }
+    }
+</script>
+
   </head>
   <body>
   <div class="pageCenter">
       <div style="float:left">
-          <h4>Scheduler v1.0 rev2</br>Joshua Cotes 2017</h4>
+          <h4>Scheduler v1.0 rev2<br/>Joshua Cotes 2017</h4>
       </div>
       <div style="float: right;">
       <%

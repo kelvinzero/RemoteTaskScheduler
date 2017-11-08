@@ -13,7 +13,6 @@ public class Taskmanager {
     private static final String ASSIGNEDTASKPATH = "C:\\Users\\Josh Cotes\\IdeaProjects\\TaskScheduler\\assignedtasks.tss";
     private List<Assignee> assignees;
     private List<STask> tasks;
-    private Vector[] taskColumns;
 
     public Taskmanager() throws IOException{
         tasks = Taskloader.loadTasks(TASKLISTPATH);
