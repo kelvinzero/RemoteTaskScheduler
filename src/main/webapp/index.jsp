@@ -17,21 +17,6 @@
       <link rel="stylesheet" href="schedulerstyles.css">
     <title>Josh's Scheduler</title>
 
-<script>
-    function scrollFunc() {
-
-        var date = new Date();
-        var line = date.getHours();
-
-        var w = $(window);
-        var row = $('tbody').find('tr').eq();
-
-        if (row.length){
-            $('html,body').animate({scrollTop: row.offset().top - (w.height()/2)}, 1000 );
-        }
-    }
-</script>
-
   </head>
   <body>
   <div class="pageCenter">

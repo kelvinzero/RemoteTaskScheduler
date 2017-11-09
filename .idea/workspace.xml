@@ -6,13 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af463c31-66b3-4e9e-a97f-4beae4544f7d" name="Default" comment="Updated table body to scroll independently of table head. Adjusted table dimensions to line up tbody and thead.">
+    <list default="true" id="af463c31-66b3-4e9e-a97f-4beae4544f7d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/tablescript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/TaskScheduler-1.0-SNAPSHOT.war/WEB-INF/classes/scheduler/taskhandler/Taskmanager.class" afterPath="$PROJECT_DIR$/build/libs/exploded/TaskScheduler-1.0-SNAPSHOT.war/WEB-INF/classes/scheduler/taskhandler/Taskmanager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/TaskScheduler-1.0-SNAPSHOT.war/WEB-INF/classes/scheduler/utilities/HTMLBuilder.class" afterPath="$PROJECT_DIR$/build/libs/exploded/TaskScheduler-1.0-SNAPSHOT.war/WEB-INF/classes/scheduler/utilities/HTMLBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scheduler/taskhandler/Taskmanager.class" afterPath="$PROJECT_DIR$/out/production/classes/scheduler/taskhandler/Taskmanager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scheduler/utilities/HTMLBuilder.class" afterPath="$PROJECT_DIR$/out/production/classes/scheduler/utilities/HTMLBuilder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignedtasks.tss" afterPath="$PROJECT_DIR$/assignedtasks.tss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scheduler/taskhandler/Taskmanager.java" afterPath="$PROJECT_DIR$/src/main/java/scheduler/taskhandler/Taskmanager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scheduler/utilities/HTMLBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/scheduler/utilities/HTMLBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/TaskScheduler-1.0-SNAPSHOT.war/index.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/TaskScheduler-1.0-SNAPSHOT.war/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/TaskScheduler-1.0-SNAPSHOT.war/schedulerstyles.css" afterPath="$PROJECT_DIR$/build/libs/exploded/TaskScheduler-1.0-SNAPSHOT.war/schedulerstyles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/schedulerstyles.css" afterPath="$PROJECT_DIR$/src/main/webapp/schedulerstyles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -31,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+            <state relative-caret-position="154">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -97,8 +101,18 @@
       <file leaf-file-name="assignedtasks.tss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignedtasks.tss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="528">
+              <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tablescript.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/tablescript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,6 +130,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>th</find>
@@ -123,6 +144,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -417,9 +443,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/scheduler/utilities/HTMLBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/scheduler/taskhandler/Taskmanager.java" />
-        <option value="$PROJECT_DIR$/assignedtasks.tss" />
         <option value="$PROJECT_DIR$/src/main/webapp/schedulerstyles.css" />
+        <option value="$PROJECT_DIR$/assignedtasks.tss" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/tablescript.js" />
       </list>
     </option>
   </component>
@@ -515,6 +542,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TaskScheduler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaskScheduler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -718,12 +751,20 @@
       <workItem from="1509832538076" duration="3355000" />
       <workItem from="1509908805387" duration="13000" />
       <workItem from="1509911177896" duration="1501000" />
-      <workItem from="1510098133336" duration="6334000" />
+      <workItem from="1510098133336" duration="8669000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated table body to scroll independently of table head. Adjusted table dimensions to line up tbody and thead.">
+      <created>1510106104569</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1510106104569</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11203000" />
+    <option name="totallyTimeSpent" value="13538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1060,14 +1101,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taskfile.tss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/scheduler/taskhandler/STask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1100,14 +1133,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignedtasks.tss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/schedulerstyles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -1116,14 +1141,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/taskfile.tss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignedtasks.tss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        <state relative-caret-position="154">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/tablescript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

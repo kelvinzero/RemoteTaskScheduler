@@ -20,23 +20,25 @@
     color: blue;
 }
 
+.time_width{
+    width:2cm;
+    font-size:22px;
+    text-align:center;
+}
+
 #table_div{
     padding-top: 1.5in;
 }
 
 table{
-    float:top;
     table-layout: fixed;
-    margin:auto;
 }
-th{
-    font-family:sans-serif;
-    font-size: 28pt;
-    padding: 5px 20px;
-    border-width:6px;
-    border-style: solid;
-    border-color: brown;
+
+td.headerRow{
+    font-size: 22pt;
+    text-align: center;
 }
+
 
 tr:nth-child(even){
     background-color: darkgrey;
@@ -44,6 +46,7 @@ tr:nth-child(even){
 
 td{
     border: 2px solid black;
+    min-width: 3.5cm;
 }
 
 tr{
@@ -74,3 +77,16 @@ body{
     background-color: coral;
 }
 
+tbody {
+   overflow:auto;
+    height: 7in;
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+thead{
+    display:table;
+    width: 99%;
+    background-color: coral;
+}
