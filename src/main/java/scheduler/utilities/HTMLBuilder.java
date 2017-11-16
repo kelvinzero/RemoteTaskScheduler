@@ -13,7 +13,7 @@ public class HTMLBuilder {
     public static String getTimeTable(){
 
         StringBuilder sb = new StringBuilder();
-        sb.append("<table>\n");
+        sb.append("<table id=\"scheduleTable\">\n");
         sb.append("<tr><th>Time</th></tr>\n");
         sb.append("<tr><td>12:00 AM</td></tr>\n");
 
@@ -40,6 +40,16 @@ public class HTMLBuilder {
         return sb.toString();
     }
 
+    public static String getTableHeader(List<Assignee> assigneeList){
+        StringBuilder sb = new StringBuilder();
+        sb.append("<th id=\"time_header\">").append("Time").append("</th>");
+        assigneeList.forEach(
+                A -> sb.append("<th id=\"")
+                        .append(A.isSexMale() ? "male_header\">" : "female_header\">")
+                        .append(A.getName()).append("</th>"));
+        return sb.toString();
+    }
+
 
     public static String buildTaskTable(List<Assignee> assigneeList){
 
@@ -52,7 +62,7 @@ public class HTMLBuilder {
         for(Assignee as : assigneeList)
             sb.append("<td class=\"headerRow\"> ").append(as.getName()).append(" </td>");
 
-        sb.append("</tr></thead><tbody>");
+        sb.append("</tr></thead><tbody id=\"scroll_body\">");
         for(int i = 0; i < 48; i++) {
             sb.append("<tr>");
             sb.append("<td>").append(timeArray[i]).append("</td>");

@@ -1,0 +1,29 @@
+tr {
+    width: 95%;
+    display: inline-table;
+    table-layout: fixed;
+    text-align: left;
+    border: solid 1-px black;
+}
+
+
+thead{
+    display: inline-block;
+    width: 98.65%;
+    height: 30px;
+}
+
+
+table{
+    width: 90%;
+    display: block;
+}
+tbody{
+    height: 400px;
+    overflow: auto;
+    display: block;
+}
+
+td, th{
+    border: 1px solid black;
+}
